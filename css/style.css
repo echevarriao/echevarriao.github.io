@@ -1,12 +1,36 @@
-body {
-
-margin: 0;
-padding: 0;
-
+html {
+	
+	scroll-behavior: smooth;
+	
 }
 
+html > body {
+	
+	font-family: arial, helvetica, comic sans-serif;
+	
+}
 
-div.container {
+ul.menu > li > a {
+	
+	color: navy;	
+	
+}
 
+ul.menu > li > a:hover {
+	
+	background-color: #000;
+	color: #fff;
+	
+}
 
+.section-block {
+	
+	padding: 10px;
+	
+}
+
+#shortresumecontent {
+	
+	display: none;
+	
 }
